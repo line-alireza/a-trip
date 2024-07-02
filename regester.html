@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام</title>
+    <link rel="stylesheet" href="./icon/all.min.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <form action="sign-up.php" method="post" class="form">
+        <div class="form_title">
+            <h2>ثبت نام</h2> 
+            <p>خوش آمدید</p>
+        </div>
+        <div class="input">
+            <label for="username">نام و نام خانوادگی</label>
+            <input type="text" name="username" id="username" placeholder="نام خود را وارد کنید" required>
+        </div>
+        <span class="error-massage" id="username-msg"></span>
+        <div class="input">
+            <label for="number">تلفن همراه*</label>
+            <input type="text" name="number" id="number" placeholder="شماره خود را وارد کنید" required>
+        </div>
+        <span class="error-massage" id="number-msg"></span>
+        <div class="input">
+            <label for="email">ایمیل</label>
+            <input type="text" name="email" id="email" placeholder="ایمیل خود را وارد کنید" required>
+        </div>
+        <span class="error-massage" id="email-msg"></span>
+        <div class="input">
+            <label for="password">رمز عبور</label>
+            <input type="text" name="password" id="password" placeholder="رمز خود را وارد کنید" required>
+        </div>
+        <span class="error-massage" id="password-msg"></span>
+
+        <button class="submit" name="submit">
+            ثبت نام
+        </button>
+
+    </form>
+
+</body>
+
+<script src="script/app2.js"></script>
+<script src="script/test.js"></script>
+ 
+</html>

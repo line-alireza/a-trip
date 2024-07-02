@@ -1,0 +1,251 @@
+.panel {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 2rem;
+    background-color: #ffefef;
+    overflow: hidden;
+
+}
+
+.panel_right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border-radius: .5rem;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.panel_profile {
+    padding: 2rem 0;
+    background-color: #353535;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel_profile img {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.panel_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    padding: 2rem;
+    color: #f9f9f9;
+}
+
+.panel_list li {
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    background-color: #06b6d4;
+}
+
+.panel_list li:hover {
+    background-color: #d22a00;
+}
+
+.panel_logoute {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    border-radius: 200% 200% 0 0;
+    column-gap: 1rem;
+    cursor: pointer;
+}
+
+
+
+.panel_left {
+    flex: 4;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: .5rem;
+}
+
+.panel_navbar {
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.panel_navbar_icons {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.panel_navbar_icons svg {
+    color: #353535;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.panel_navbar_icons svg:nth-child(1) {
+    border-left: 2px solid #000;
+    padding-left: 2rem;
+}
+
+.panel_left_main {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.main_right {
+    flex: 4;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.main_boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_box {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7dd3fc;
+    border-radius: 1rem;
+    padding: 2rem;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+.main_box h4 {
+    color: #0369a1;
+}
+
+.main_box:nth-child(even) {
+    background-color: #fef9c3;
+}
+
+.main_box:nth-child(even) h4 {
+    color: #a16207;
+}
+
+.main_box span {
+    width: 4rem;
+    height: 4rem;
+    background-color: #0369a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.main_box p {
+    color: #151515;
+}
+
+.main_left {
+    flex: 2;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_left img {
+    width: 20rem !important;
+}
+
+.main_title p {
+    color: #353535;
+    margin: 1rem 0;
+}
+
+.main_title button {
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    color: #fff;
+    background-color: #0369a1;
+    cursor: pointer;
+}
+
+.panel_order {
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.panel_order_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel_order_header button {
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: #d22a00;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.order_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #cccccc;
+    margin: 1rem 0;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.order_item img {
+    width: 10rem;
+    height: 5rem;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
+.order_item p {
+    color: #0369a1;
+}
+
+.order_item span {
+    background-color: #06b6d4;
+    border-radius: .5rem;
+    padding: 1rem;
+}
